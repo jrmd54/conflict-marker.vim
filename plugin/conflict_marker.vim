@@ -37,8 +37,8 @@ nnoremap <silent><Plug>(conflict-marker-prev-hunk)  :<C-u>ConflictMarkerPrevHunk
 
 function! s:execute_hooks()
     if g:conflict_marker_enable_mappings
-        nmap <buffer>]x <Plug>(conflict-marker-next-hunk)
-        nmap <buffer>[x <Plug>(conflict-marker-prev-hunk)
+        nmap <buffer>]c <Plug>(conflict-marker-next-hunk)
+        nmap <buffer>[c <Plug>(conflict-marker-prev-hunk)
         nmap <buffer>ct <Plug>(conflict-marker-themselves)
         nmap <buffer>co <Plug>(conflict-marker-ourselves)
         nmap <buffer>cn <Plug>(conflict-marker-none)
